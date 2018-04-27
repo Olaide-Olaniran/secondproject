@@ -1,11 +1,273 @@
-/* Base Layout */
-* {
-  box-sizing: border-box;
+
+*{
+	box-sizing: border-box;
 }
 
-body {
-  text-align: center;
-  font-family: 'Open Sans', sans-serif;
-  font-size: .75em;
-  margin: 0;
+/* Link Styles */
+a{
+	text-decoration-line: none;
+}
+body{
+		
+	background: lavender;
+}
+.background,
+header{
+	
+	background: linear-gradient(70deg, #81D8D0, #3284BF);
+}
+	
+/* Section Styles for Navigation*/
+	.title{
+		height: 3em;  
+		line-height: 3em;
+		font-size: 25px;
+		font-family: 'Alegreya', sans-serif;
+		letter-spacing: 1px;
+		color: #222;
+	}
+	
+	.nav-bar a:hover{
+			background: #40E0D0;
+			color: #fff;
+		}
+
+	.nav-bar a{
+		text-transform: uppercase;
+		background: #fff;
+		margin-bottom: 4px;
+		display: block;
+		height: 3em;  
+	  	line-height: 3em;
+	  	font-family: 'Roboto', sans-serif;
+	  	letter-spacing: 1px;
+	  	color: #222;  	
+	  	width: 100%;
+	}
+
+/* Section Styles */
+
+	.container{
+		text-align: center;
+		width:90%;
+		margin: 0 auto;
+		max-width: 1024px;
+	}
+
+/* Section Styles for Photo*/
+	
+	header{
+		padding-bottom: 50px;
+	}
+	.photo{
+		 margin-top: 35px;
+		 
+	}
+	.photo img{
+		width: 65%;
+		margin-bottom: 15px;
+		border-radius: 100%;
+        border: 3px solid white;
+        
+	}
+
+/* Section Styles for card*/
+	
+	#portfolio{
+		margin-bottom: 0;
+	}
+
+	.card img {
+		width:100%;
+		margin-top: 40px;
+
+	}
+
+	/*.card1 {
+
+		float: left;
+		
+    }*/
+    .java {
+    	float: right;
+    }
+	
+/* Section Styles for Text on Page*/
+
+	.card .text{
+		width:85%;
+		margin:15px auto 0;
+	}
+	.text.txt-icon{
+		color:#675a85;
+	}
+	.text{
+		font-family: 'Condensed', sans-serif;
+		color: #7f7f7f;
+		font-size: 1.2em;
+		line-height: 30px;
+}
+	.card h2{
+		font: 20px'Merriweather', sans-serif;
+		letter-spacing: 1px;
+		margin-top: 25px;
+		font-weight: bold;
+		color: #4a4a4a;
+	}
+	h3{
+		font-family:'Roboto', sans-serif;
+	  	letter-spacing: 1px;
+	  	color: #222;
+	  	text-transform: uppercase;
+	  	margin: 30px auto 35px;
+	  	font-size: 1.5em;
+	}
+
+/* Section Styles for Conatact*/
+
+	.contact{
+		text-align: center;
+		margin-top: 30px;
+	}
+	.contact h3{
+		margin-top:0;
+		padding-top: 30px;
+	}
+	.contact span{
+		font-weight: bold;
+	}
+	.space {
+		margin-top:20px;
+	}
+
+/* Styles for Footer */
+
+	.foot-nav{
+		margin-top:40px;
+		border-top:1px solid #d3d3d3;
+		font-family: 'Roboto', sans-serif;
+		display: table;
+		clear: both;
+		content: "";
+		width: 100%;
+
+	}
+	.foot-nav a:hover{
+		color:#fff;
+	}
+	.left-float,
+	.right-float{	
+		margin: 20px 0;
+	}
+	.right-float{
+		float:right;	
+	}
+	.left-float{
+		float:left;
+		margin-top:8px;
+		font-size: 25px;
+		font-family: 'Alegreya', sans-serif;
+		letter-spacing: 1px;
+		color: #222;
+	}
+	.bottom li{
+		display: none;    
+	    text-transform: uppercase;    
+	}
+	.right-float a{
+		display: block;
+		color: #7f7f7f;
+	}
+	.skills img{
+		margin-top: 0;
+	}
+	.contact h3,
+	.contact .text,
+	.right-float a,
+	.left-float{
+		color:#675a85;
+	}
+
+
+
+	/* Styles for larger screens */
+
+@media (min-width: 768px){
+
+	/* Section Styles for Navigation*/
+	.nav-bar a{
+		padding: 0 15px;
+		background: inherit;
+	}
+	
+	.nav-bar li{
+		float: left;
+	}	
+	/*.nav-bar a{		
+		background: inherit;
+	}*/
+	.nav-bar{
+		margin: auto;
+	}
+	.clearfix{
+		display: table;
+		content: "";
+		clear: both;
+	}
+	/* Section Styles for Photo*/
+	.photo{
+		float: right;
+		margin: 0;
+		text-align: right;
+		width: 40%;
+	}
+	.photo img{
+		margin-bottom: 0;
+		width: 100%;
+	}
+	.txt-icon{
+		width: 55%;
+		text-align: left;
+	}
+
+	/* Section Styles for Card*/
+
+	.card{
+		width:48%;		
+	}
+	.card1{
+       float: right;
+	}
+	.flex{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+	.card.skills{
+		width:70%;
+		margin:auto;
+	}
+	.clear{
+		display: none;
+	}
+	.bottom{
+		display: inline-block;
+		text-transform: uppercase;
+		margin-left: 15px;
+	}
+	
+}
+
+@media (min-width: 1024px){
+	.card{
+		width:32%;		
+	}
+	.nav-bar{
+		margin: auto 0;
+	}
+	.flex-1024{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}	
 }
