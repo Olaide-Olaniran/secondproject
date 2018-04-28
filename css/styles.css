@@ -88,8 +88,10 @@ header{
 		float: left;
 		
     }*/
-    .java {
+    .card2 {
     	float: right;
+    	margin-left: 10px;
+    	margin: 40px auto;
     }
 	
 /* Section Styles for Text on Page*/
@@ -150,7 +152,6 @@ header{
 		clear: both;
 		content: "";
 		width: 100%;
-
 	}
 	.foot-nav a:hover{
 		color:#fff;
@@ -164,11 +165,6 @@ header{
 	}
 	.left-float{
 		float:left;
-		margin-top:8px;
-		font-size: 25px;
-		font-family: 'Alegreya', sans-serif;
-		letter-spacing: 1px;
-		color: #222;
 	}
 	.bottom li{
 		display: none;    
@@ -197,15 +193,14 @@ header{
 	/* Section Styles for Navigation*/
 	.nav-bar a{
 		padding: 0 15px;
-		background: inherit;
 	}
 	
 	.nav-bar li{
 		float: left;
 	}	
-	/*.nav-bar a{		
+	.nav-bar a{		
 		background: inherit;
-	}*/
+	}
 	.nav-bar{
 		margin: auto;
 	}
