@@ -40,10 +40,12 @@ header{
 		height: 3em;  
 	  	line-height: 3em;
 	  	font-family: 'Roboto', sans-serif;
-	  	letter-spacing: 1px;
+	  	letter-spacing: .5px;
 	  	color: #222;  	
 	  	width: 100%;
 	  	border-radius: 8px;
+	  	float: right;
+	  	padding-right: 30px
 
 	}
 
@@ -57,7 +59,7 @@ header{
 
 	.container{
 		text-align: center;
-		width:90%;
+		width:100%;
 		margin: 0 auto;
 		max-width: 1024px;
 	}
@@ -141,7 +143,7 @@ header{
 	  	font-size: 1.5em;
 	}
 
-/* Section Styles for Conatact*/
+/* Section Styles for Contact*/
 
 	.contact{
 		text-align: center;
@@ -207,18 +209,20 @@ header{
 @media (min-width: 768px){
 
 	/* Section Styles for Navigation*/
-	.nav-bar a{
+	/*.nav-bar a{
 		padding: 0 15px;
-	}
+	}*/
 	
 	.nav-bar li{
 		float: left;
+		padding: 0 15px;
 	}	
 	.nav-bar a{		
 		background: inherit;
 	}
 	.nav-bar{
 		margin: auto;
+
 	}
 	.clearfix{
 		display: table;
@@ -246,7 +250,6 @@ header{
   width: 50%;
   float: left;
   padding: 5px;
-  box-sizing: border-box;
 }
   
 
