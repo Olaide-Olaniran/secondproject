@@ -4,9 +4,7 @@
 }
 
 /* Link Styles */
-/*a{
-	text-decoration-line: none;
-}*/
+
 body{
 		
 	background: lavender;
@@ -34,7 +32,6 @@ header{
 
 	.nav-bar a{
 		text-transform: uppercase;
-		/*background: lavender;*/
 		margin-bottom: 4px;
 		display: table;
 		height: 3em;  
@@ -45,22 +42,19 @@ header{
 	  	width: 100%;
 	  	border-radius: 8px;
 	  	float: right;
-	  	/*padding-right: 30px*/
+	  
 
 	}
 
 	#header-nav {
 
 		margin-top: -55px;
-		/*display: table;*/
+		display: block;
 		clear: both;
 		content: " ";
 		width: 100px;
 		display: flex;
 
-		/*padding-left: 0px;*/
-		
-		/*margin-right: -300px*/
 	}
 
 /* Section Styles */
@@ -104,11 +98,7 @@ header{
 
 	}
 
-	/*.card1 {
-
-		float: left;
-		
-    }*/
+	
     .card2 {
     	float: right;
     	margin-left: 10px;
@@ -117,10 +107,7 @@ header{
 	
 /* Section Styles for Text on Page*/
 
-	/*.card .text{
-		width:85%;
-		margin:15px auto 0;
-	}*/
+	
 	.profile-message{
 		font-family: 'Merriweather', sans-serif;
 		color:#675a85;
@@ -192,10 +179,7 @@ header{
 	.left-float{
 		float:left;
 	}
-	/*.bottom li{
-		display: none;    
-	    text-transform: uppercase;    
-	}*/
+	
 	.right-float a{
 		display: block;
 		color: #7f7f7f;
@@ -217,9 +201,7 @@ header{
 @media (min-width: 768px){
 
 	/* Section Styles for Navigation*/
-	/*.nav-bar a{
-		padding: 0 15px;
-	}*/
+	
 	
 	.nav-bar li{
 		float: left;
@@ -232,6 +214,14 @@ header{
 		margin: auto;
 
 	}
+
+	 #header-nav  {
+		
+     display: flex;
+   
+     
+	}
+
 	.clearfix{
 		display: table;
 		content: "";
@@ -251,9 +241,6 @@ header{
 
 	/* Section Styles for Card*/
 
-	/*.card{
-		width:48%;		
-	}*/
 	.card {
   width: 50%;
   float: left;
