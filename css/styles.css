@@ -28,20 +28,25 @@ header{
 	.nav-bar a:hover{
 			border-bottom: #40E0D0;
 			color: #fff;
+			border-bottom: 5px solid darkgreen;
+			background: darkgreen;
 		}
 
 	.nav-bar a{
 		text-transform: uppercase;
-		margin-bottom: 4px;
+		margin-bottom: 2px;
 		display: table;
-		height: 3em;  
-	  	line-height: 3em;
+		height: 1em;  
+	  	line-height: 1em;
 	  	font-family: 'Roboto', sans-serif;
 	  	letter-spacing: 1px;
 	  	color: #222;  	
 	  	width: 100%;
-	  	border-radius: 8px;
+	  	border-radius: 9px;
 	  	float: right;
+	  	padding-top: 12px;
+	  	
+
 	  
 
 	}
@@ -53,7 +58,8 @@ header{
 		clear: both;
 		content: " ";
 		width: 100px;
-		display: flex;
+
+		/*display: flex;*/
 
 	}
 
@@ -218,7 +224,6 @@ header{
 	 #header-nav  {
 		
      display: flex;
-   
      
 	}
 
@@ -290,4 +295,5 @@ header{
 		flex-wrap: wrap;
 		justify-content: space-between;
 	}	
+
 }
