@@ -53,11 +53,11 @@ header{
 
 	#header-nav {
 
-		margin-top: -55px;
+		/*margin-top: -55px;*/
 		display: block;
 		clear: both;
 		content: " ";
-		width: 100px;
+		/*width: 100px;*/
 
 		/*display: flex;*/
 
@@ -187,9 +187,12 @@ header{
 	}
 	
 	.right-float a{
-		display: block;
+		display: none;
 		color: #7f7f7f;
 	}
+	.toTop {
+	display: inline;
+}
 	.skills img{
 		margin-top: 0;
 	}
@@ -220,6 +223,13 @@ header{
 		margin: auto;
 
 	}
+	.right-float a{
+	display: block;
+    }
+
+   .toTop {
+	display: none;
+    }
 
 	 #header-nav  {
 		
@@ -262,7 +272,7 @@ header{
 .card h2 {
   color: green;
 }
-	}
+	/*}*/
 	.flex{
 		display: flex;
 		flex-wrap: wrap;
