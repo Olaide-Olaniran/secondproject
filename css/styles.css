@@ -26,10 +26,8 @@ header{
 	}
 	
 	.nav-bar a:hover{
-			border-bottom: #40E0D0;
+			background: #40E0D0;
 			color: #fff;
-			border-bottom: 5px solid darkgreen;
-			background: darkgreen;
 		}
 
 	.nav-bar a{
@@ -190,8 +188,9 @@ header{
 		display: none;
 		color: #7f7f7f;
 	}
-	.toTop {
+	.toTop a{
 	display: inline;
+	margin-right: 20px;
 }
 	.skills img{
 		margin-top: 0;
@@ -206,6 +205,8 @@ header{
 
 
 	/* Styles for larger screens */
+
+
 
 @media (min-width: 768px){
 
@@ -224,7 +225,7 @@ header{
 
 	}
 	.right-float a{
-	display: block;
+	display: inline;
     }
 
    .toTop {
@@ -272,7 +273,7 @@ header{
 .card h2 {
   color: green;
 }
-	/*}*/
+	
 	.flex{
 		display: flex;
 		flex-wrap: wrap;
