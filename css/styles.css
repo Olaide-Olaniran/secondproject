@@ -85,7 +85,7 @@ header{
 	.photo img{
 		width: 65%;
 		margin-bottom: 15px;
-		border-radius: 100%;
+		border-radius: 10%;
         border: 3px solid white;
         
 	}
